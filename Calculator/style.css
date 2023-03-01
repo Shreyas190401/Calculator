@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: wheat;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin: 50px 0px;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container{
+    min-height: 70vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator{
+    width: 300px;
+    height: 500px;
+    box-shadow: 5px 5px 30px rgb(0, 0, 0);
+    border-radius: 10px;
+    background-color:#282828;
+    overflow: hidden;
+}
+
+form input{
+    width: 100%;
+    height: 150px;
+    
+    border: none;
+    border-radius: 10px;
+    font-size: 2rem;
+    padding: 1rem;
+    color: #fff;
+    background-color: #121212;
+    text-align: right;
+    pointer-events: none ;
+
+
+}
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 15px;
+
+}
+button{
+    flex: 0 0 22%;
+    margin: 5px 0;
+    width: 60px;
+    height: 55px;
+    border: 1px solid #000;
+    font-size: 25px;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn-yellow{
+    background-color: rgb(208, 143, 24);
+    color: #fff;
+}
+.btn-grey{
+    background-color: rgb(146, 146, 146);
+    color: #fff;
+}
+.btn-equal{
+    background-color: green;
+    color: #fff;
+}
+.btn-clear{
+    background-color: red;
+    color: #fff;
+}
